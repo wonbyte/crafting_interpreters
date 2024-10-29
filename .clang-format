@@ -1,0 +1,16 @@
+# .clang-format
+---
+BasedOnStyle: LLVM
+
+PointerAlignment: Left
+
+UseTab: Never
+
+IndentWidth: 4
+
+TabWidth: 4
+
+# Align `#define` directives with the code following them
+AlignConsecutiveMacros: true
+
+ColumnLimit: 80
